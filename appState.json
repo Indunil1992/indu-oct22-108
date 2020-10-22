@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "indu-oct22-108.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 3
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs12.x",
@@ -71,6 +71,16 @@
             "allowCredentials": true
           }
         }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
       }
     },
     "customTemplate": {
@@ -90,7 +100,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -102,7 +120,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1603352625213
+    "lastSave": 1603353246839
   },
   "VCS_STATE": {
     "provider": "GitHub",
